@@ -60,4 +60,27 @@
     margin-top: 20px;
     margin-bottom: 20px;
 }
+.bg-dark-custom {
+    background-color: #1d1f23; /* similar to the screenshot dark background */
+  }
 
+  .custom-bg{
+    background-color: #f8f9fa; /* light background for the card */
+  }
+  .founder-img {
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid gold;
+  }
+
+  .text-muted-custom {
+    color: #ccc;
+    font-size: 14px;
+  }
+
+  .founder-name {
+    font-weight: 600;
+    margin-top: 15px;
+  }
