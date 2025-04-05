@@ -1,0 +1,139 @@
+.header {
+    background-color: #555;
+    color: white;
+    padding: 110px 0;
+    text-align: center;
+}
+.header h1 {
+    font-weight: bold;
+    font-size: 3rem;
+}
+.header p {
+    font-size: 1.2rem;
+}
+.btn-primary {
+    background: linear-gradient(to right, #00008B 50%, #555 50%);
+    background-size: 200% 100%;
+    background-position: left bottom;
+    color: #ffffff;
+    border-color: #00008B;
+    font-weight: bolder;
+    padding: 10px 20px;
+    border-radius: 0 20px;
+    transition: 1s;
+}
+
+.btn-primary:hover {
+    background-position: right bottom;
+    color: #00008B;
+    transition: 1s;
+    border-color: #00008B;
+}
+
+.btn-secondary {
+    background: linear-gradient(to left,#ffffff  50%, #555 50%);
+    background-size: 200% 100%;
+    background-position: left bottom;
+    color: #ffffff;
+    border-color: #ffffff;
+    font-weight: bolder;
+    padding: 10px 30px;
+    border-radius:  20px 0;
+    transition: 1s;
+}
+
+.btn-secondary:hover {
+    background-position: right bottom;
+    color: #00008B;
+    border-color: #fdfdfd;
+    transition: 1s;
+}
+
+.stats {
+    background-color: #f8f9fa;
+    padding: 110px 0;
+    text-align: center;
+}
+.stats h3 {
+    font-weight: bold;
+    color: #00008B;
+    font-size: 40px;
+}
+.stats p{
+    font-size: 20px;
+}
+.services {
+    margin-bottom: 40px;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.service-card {
+    border: none;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 12px 20px 12px 20px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    margin: 5px;
+    background: linear-gradient(to top, #ebebf1 50%, #fff 50%);
+    background-size: 100% 200%;
+    background-position: bottom;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.8);
+    background-position: top;
+    transition: 0.3s;
+}
+.card-img-top {
+    width: 140px;
+    height: 120px;
+    object-fit: contain;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-title {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.card-text {
+    color: #555;
+    font-size: 0.95rem;
+}
+
+.text-muted {
+    margin-bottom: 20px;
+    font-size: 1.1rem;
+}
+
+
+.cta {
+    background-color: #00008B;
+    color: white;
+    padding: 60px 0;
+    text-align: center;
+}
+.cta h2 {
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+.btn-light {
+    background: linear-gradient(to right, #ffffff 50%, #00008B 50%);
+    background-size: 200% 100%;
+    background-position: left bottom;
+    color: #00008B;
+    border-radius: 0 20px;
+    font-weight: bolder;
+    padding: 10px 30px;
+    transition: 1s;
+}
+
+.btn-light:hover {
+    background-position: right bottom;
+    color: #ffffff;
+    transition: 1s;
+}

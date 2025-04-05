@@ -1,0 +1,56 @@
+.logo-1 {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.rlt-logo {
+    height: 100px;
+    width:100px;
+    margin-right: 5px;
+}
+
+.logo-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.logo-2 {
+    font-size: 24px;
+    font-weight: bold;
+    color:#414293;
+}
+
+.logo-3 {
+    font-size: 18px;
+    font-style: italic;
+    color:#414293;
+}
+.nav-gap li {
+    margin-left: 15px;
+  }
+  
+  .nav-custom {
+    font-weight: bold;
+    color: rgb(85, 38, 194);
+    text-decoration: none;
+  }
+  
+  .nav-custom:hover {
+    color: rgb(119, 119, 134);
+  }
+  .nav-custom.active {
+    color: rgb(119, 119, 134);
+  }
+  .navbar.sticky-top {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1020;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
